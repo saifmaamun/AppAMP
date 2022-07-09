@@ -1,0 +1,96 @@
+/* universial */
+*{
+    
+}
+
+li{
+    list-style-type: none;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif;   
+}
+.bgc{
+background-color: #F7F9FF;
+}
+/* universial */
+
+/* font size */
+.f-16{
+    font-size:16px;
+}
+.f-20{
+    font-size:20px;
+}
+.f-25{
+    font-size:25px;
+}
+.f-44{
+    font-size:44px;
+}
+.f-58{
+    font-size:58px;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+/* font size */
+
+/* nav */
+.nav{
+    background-color: #fff;
+}
+/* nav */
+
+
+/* banner */
+.banner{
+    background: url(/assets/img/mbr-4.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 180px 0;
+    position: relative;
+    
+z-index: 1;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.4);
+    
+z-index: -1;
+}
+.banner-text{
+}
+/* banner */
+
+/* video section */
+
+/* video section */
+
+/* features */
+.features{
+    background-color: #FFFFFF;
+}
+/* features */
+
+/* pricing */
+
+/* pricing */
+
+/* newsletter */
+
+/* newsletter */
